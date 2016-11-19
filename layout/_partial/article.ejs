@@ -26,9 +26,9 @@
         <% } %>
 	<% if (item.comment && config.duoshuo_shortname){ %>
 	<div class="alignright">
-          <a href="<%- item.permalink %>#comments" class="comment-link">Comments</a>
+          <a href="<%- item.permalink %>#comment" class="comment-link">Comments</a>
         </div>
-        <% else if (item.comment && config.disqus_shortname){ %>
+        <% }else if (item.comment && config.disqus_shortname){ %>
         <div class="alignright">
           <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
         </div>

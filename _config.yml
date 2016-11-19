@@ -6,7 +6,6 @@ widgets:
 - search
 - category
 - tag
-- twitter
 
 excerpt_link: Read More
 
@@ -25,7 +24,7 @@ addthis:
 
 fancybox: true
 
-google_analytics:
+google_analytics: UA-36519147-1
 rss:
 
 comment_provider: disqus
